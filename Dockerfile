@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:7
 
 RUN yum upgrade -y \\
      && yum install -y epel-release \\
